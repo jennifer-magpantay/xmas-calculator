@@ -1,0 +1,62 @@
+/* ---------- RESET ---------- */
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --black: #000000;
+  --white: #ffffff;
+}
+
+/* ---------- GLOBAL | ALPHABETIC ORDER ---------- */
+body {
+  background-color: var(--black);
+  color: var(--white);
+}
+
+h1 {
+  margin: 0;
+  font-size: 4em;
+}
+
+
+/* ---------- MAIN ---------- */
+
+.container {
+  width: 45%;
+  height: auto;
+  margin: 25vh auto;
+  padding: 2em;
+  border: 4px solid var(--white);
+  border-radius: 8px;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.results {
+  margin: 0;
+  padding-top: 0.25em;
+  font-size: 3.5em;
+}
+
+/* ---------- MEDIA QUERIES---------- */
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3em;
+  }
+
+  .container {
+    width: 80%;
+  }
+
+  .results {
+    font-size: 2.5em;
+  }
+}
